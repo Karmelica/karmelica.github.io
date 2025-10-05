@@ -1,0 +1,104 @@
+.body{
+    background-color: rgb(33, 41, 32);
+    color:beige;
+    text-align: justify;
+    font-family: Iosevka, monospace, sans-serif;
+    max-width: 1290px;
+    margin: auto;
+}
+
+.intro{
+    border: 2px solid beige;
+    width: 100% - 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.about{
+    border: 2px solid beige;
+    width: 100% - 20px;
+    padding: 20px;
+    margin: 20px;
+}
+
+.info{
+    display: flex;
+    margin: 20px;
+    width: 100% - 40px;
+    text-align: left;
+}
+
+.info p{
+    border: 2px solid beige;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.skills {
+    border: 2px solid beige;
+    padding: 20px;
+    flex: 50%;
+}
+
+.contact{
+    border: 2px solid beige;
+    padding: 20px;
+    flex: 50%;
+    margin-right: 20px;
+}
+
+@media screen and (max-width: 1000px) {
+    .info{
+        display: block;
+        margin: 20px;
+        width: 100% - 40px;
+    }
+    .contact{
+        margin-right: 0px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+}
+
+.projects{
+    border: 2px solid beige;
+    padding: 20px;
+    margin: 20px;
+}
+
+.projects img{
+    width: 100%;
+}
+
+.ninja, .elektronik, .alice, .unseen, .wizard{
+    border: 2px solid beige;
+    padding: 40px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+a, a:visited{
+    color: beige;
+}
+
+h1, h2, h3{
+    text-align: center;
+}
+
+ul {
+    text-align: left;
+}
+
+.alice iframe {
+    aspect-ratio: 16/9;
+    width: min(100%, 1290px);
+    height: auto;
+    margin: auto;
+}
+
+.elektronik iframe {
+    aspect-ratio: 16/9;
+    width: 100%;
+    height: auto;
+}
