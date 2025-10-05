@@ -78,6 +78,16 @@
     margin-bottom: 20px;
 }
 
+button {
+    background-color: beige;
+    color: rgb(33, 41, 32);
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-family: Iosevka, monospace, sans-serif;
+    cursor: pointer;
+}
+
 a, a:visited{
     color: beige;
 }
@@ -102,5 +112,6 @@ ul {
     width: 100%;
     height: auto;
     border:none;
+    margin-top: 20px;
     display: none;
 }
