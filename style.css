@@ -7,8 +7,27 @@
     margin: auto;
 }
 
+.nav{
+    position: sticky;
+    display: flex;
+    gap: 20px;
+    top: 0;
+    justify-content: center;
+    background-color: rgb(50, 58, 50);
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.nav p{
+    color: beige;
+    font-weight: bold;
+    background-color: rgb(52, 65, 50);
+    width: 100%;
+    padding: 20px 20px;
+}
+
 .intro{
-    border: 2px solid beige;
+    /* border: 2px solid beige; */
     width: 100% - 20px;
     padding: 20px;
     margin: 20px;
@@ -62,7 +81,7 @@
 }
 
 .projects{
-    border: 2px solid beige;
+    /* border: 2px solid beige; */
     padding: 20px;
     margin: 20px;
 }
