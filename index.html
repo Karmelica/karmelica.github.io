@@ -8,82 +8,96 @@
     <script src="https://kit.fontawesome.com/d0f0b02c2b.js" crossorigin="anonymous"></script>
     <script src="script.js" defer></script>
 </head>
-<body class="body">
+<body>
     <div class="nav">
         <p id="info-click">O mnie</p>
         <p id="projects-click">Projekty</p>
     </div>
-    <div class="intro">
-        <h1>O mnie</h1>
-        <div class="about" id="about">
-            <h1>Damian Niedziółka</h1>
-            <h2>Programista, pasjonat nowych technologii</h2>
-            <p>Witaj na mojej stronie portfolio! Jestem programistą tworzącym w Unity. Na tej stronie znajdziesz informacje o moich pracach, oraz projektach, które realizuję. </p>
-            <p style="text-align: center;">Zapraszam do zapoznania się z moimi projektami!</p>
-        </div>
-        <div class="info" id="info">
-            <div class="contact">
-                <h1>Kontakt</h1>
-                <p><i class="fa-solid fa-house"></i> Poznań, Polska</p>
-                <p><i class="fa-solid fa-phone"></i> <a href="tel:+48665641321">+48 665641321</a></p>
-                <p><i class="fa-solid fa-envelope"></i> <a href="mailto:damianniedziolka@gmail.com">damianniedziolka@gmail.com</a></p>
-                <p><i class="fa-brands fa-github"></i> <a href="https://github.com/Karmelica">GitHub</a></p>
-                <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/damian-niedziółka-6aa45a273">LinkedIn</a></p>
-                <p><i class="fa-brands fa-discord"></i> <a href="https://discord.com/users/karmelica">Discord</a></p>
+    <div class="container">
+        <div class="intro">
+            <h1>O mnie</h1>
+            <div class="about" id="about">
+                <h1>Damian Niedziółka</h1>
+                <h2>Programista, pasjonat nowych technologii</h2>
+                <p>Witaj na mojej stronie portfolio! Jestem programistą tworzącym w Unity. Na tej stronie znajdziesz informacje o moich pracach, oraz projektach, które realizuję. </p>
+                <p style="text-align: center;">Zapraszam do zapoznania się z moimi projektami!</p>
             </div>
-            <div class="skills">
-                <h1>Umiejętności</h1>
-                <p><i class="fa-brands fa-unity"></i> Programowanie w C# i tworzenie gier w Unity</p>
-                <p><i class="fa-solid fa-cube"></i> Tworzenie i teksturowanie modeli 3D w Blenderze</p>
-                <p><i class="fa-solid fa-language"></i> Język angielski na poziomie komunikatywnym + słownictwo branżowe</p>
-                <p><i class="fa-solid fa-people-group"></i> Praca w zespole jako leader oraz wykonawca</p>
-                <p><i class="fa-brands fa-html5"></i> Znajomość HTML i CSS</p>
+            <div class="info">
+                <div class="contact">
+                    <h1>Kontakt</h1>
+                    <p><i class="fa-solid fa-house"></i> Poznań, Polska</p>
+                    <p><i class="fa-solid fa-phone"></i> <a href="tel:+48665641321">+48 665641321</a></p>
+                    <p><i class="fa-solid fa-envelope"></i> <a href="mailto:damianniedziolka@gmail.com">damianniedziolka@gmail.com</a></p>
+                    <p><i class="fa-brands fa-github"></i> <a href="https://github.com/Karmelica">GitHub</a></p>
+                    <p><i class="fa-brands fa-linkedin"></i> <a href="https://www.linkedin.com/in/damian-niedziółka-6aa45a273">LinkedIn</a></p>
+                    <p><i class="fa-brands fa-discord"></i> <a href="https://discord.com/users/karmelica">Discord</a></p>
+                </div>
+                <div class="skills">
+                    <h1>Umiejętności</h1>
+                    <p><i class="fa-brands fa-unity"></i> Programowanie w C# i tworzenie gier w Unity</p>
+                    <p><i class="fa-solid fa-cube"></i> Tworzenie i teksturowanie modeli 3D w Blenderze</p>
+                    <p><i class="fa-solid fa-language"></i> Język angielski na poziomie komunikatywnym + język branżowy</p>
+                    <p><i class="fa-solid fa-people-group"></i> Praca w zespole jako leader oraz wykonawca</p>
+                    <p><i class="fa-brands fa-html5"></i> Znajomość HTML i CSS</p>
+                </div>
             </div>
         </div>
-    </div>
-    <div class="projects" id="projects">
-        <h1>Projekty</h1>
-        <div class="ninja">
-            <h1>Komputronik "Ninja" - październik 2025</h1>
-            <p>Gra obecnie tworzona na zlecenie Komputronik</p>
-            <p>Zajrzyj tutaj pod koniec października, aby zobaczyć efekty naszej pracy!</p>
-            <p><b>Rola:</b> Wsparcie programistyczne, implementacja UI</p>
-        </div>
-        <div class="elektronik">
-            <h1>Elektronik - wrzesień 2025</h1>
-            <p>Gra stworzona na zlecenie Komputronik</p>
-            <p>Gra typu konkurs interaktywny, w której gracze mogą wygrywać nagrody przewidziane prez organizatora.</p>
-            <p><b>Rola:</b> Główny programista backendu, programista mechanik, UI oraz animacji</p>
-            <p><a href="https://www.komputronik.pl/lp/level">Oficjalna strona Komputronik</a></p>
-            <button id="showGame">Zagraj teraz</button><iframe id="elektron" src="https://tower-f191b--captcha-evgb1l4b.web.app"></iframe>
-        </div>
-        <div class="alice">
-            <h1>We Did It, Alice! - 2025</h1>
-            <h3><a href="https://github.com/Karmelica/We-Did-It-Alice/releases">Link do projektu</a></h3>
-            <p>Projekt stworzony podczas GameJam'u Animatora <b>"Rotamina - chemia w nas"</b>.<br>Gracz wciela się w Rotamimi - kotka, który chce pomóc tytułowej bohaterce pokonać swoje traumy.<br>Gra zdobyła pierwsze miejsce w konkursie.</p>
-            <p><b>Rola:</b> Główny programista</p>
-            <p><a href="https://animator-festival.com/news/laureaci-game-jam-2025/">Wyniki konkursu Animatora</a></p>
-            <iframe src="https://www.youtube.com/embed/GTdlPGpYMjI?si=3dEQwMRlJh76sVKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-            <img src="WeDidItAlice.png" alt="Grafika promocyjna We Did It, Alice!">
-        </div>
-        <div class="unseen">
-            <h1>Sights Unseen 2024 - 2025</h1>
-            <h3><a href="https://github.com/Karmelica/Sights-Unseen/releases">Link do projektu</a></h3>
-            <p>Gra stworzona w pięcioosobowej grupie w ramach zaliczenia przedmiotu "Zarządzanie projektami"</p>
-            <p>Gracz wciela się w postać niewidomego karateki, który musi odnaleźć się w nowej rzeczywistości po częściowej utracie wzroku.</p>
-            <p><b>Rola:</b> Teamleader oraz główny programista podstawowych mechanik</p>
-            <img src="SightsUnseen.png" alt="Grafika główna SightsUnseen">
-        </div>
-        <div class="wizard">
-            <h1>Wizard Survivors - 2023</h1>
-            <h3><a href="https://github.com/Karmelica/Wizard-Survivors/releases">Link do projektu</a></h3>
-            <p>Gra stworzona w siedmioosobowej grupie w ramach zaliczenia przedmiotu "Podstawy programowania" - jest to mój pierwszy zespołowy projekt gry.</p>
-            <p>Gracz wciela się w postać lisiego czarodzieja, który musi przetrwać w podzielonym na cztery biomy świecie pełnym potworów.</p>
-            <p><b>Rola:</b> Teamleader oraz programista mechanik walki, poruszania się i animacji</p>
-            <img src="WizardSurvivors.png" alt="Ekran gry Wizard Survivors">
+        <div class="projects" id="projects">
+            <h1>Projekty</h1>
+            <div class="ninja">
+                <h1>Komputronik "Ninja" - październik 2025</h1>
+                <p>Zajrzyj tutaj pod koniec października, aby zobaczyć efekty naszej pracy!</p>
+                <p>Projekt obecnie tworzony na zlecenie Komputronik</p>
+                <p><b>Rola:</b> Wsparcie programistyczne, implementacja UI i animacji</p>
+            </div>
+            <div class="elektronik">
+                <h1>Elektronik - wrzesień 2025</h1>
+                <p>Gra typu konkurs interaktywny, w której gracze mogą wygrywać nagrody przewidziane prez organizatora.</p>
+                <p>Projekt wykonywany na zlecenie Komputronik</p>
+                <p><b>Rola:</b> Główny programista backendu, programista mechanik, UI oraz animacji</p>
+                <p><a href="https://www.komputronik.pl/lp/level">Oficjalna strona Komputronik</a></p>
+                <button id="showGame">Zagraj teraz</button><iframe id="elektron" src="https://tower-f191b--captcha-evgb1l4b.web.app"></iframe>
+            </div>
+            <div class="alice">
+                <h1>We Did It, Alice! - 2025</h1>
+                <h3><a href="https://github.com/Karmelica/We-Did-It-Alice/releases">Link do projektu</a></h3>
+                <p>Wcielamy się w Rotamimi - kotka, który chce pomóc tytułowej bohaterce pokonać swoje traumy. Gracz musi przejść przez cztery minigierki odpowiadające wydarzeniom z przeszłości bohaterki</p>
+                <p>Projekt stworzony podczas GameJam'u Animatora <b>"Rotamina - chemia w nas"</b>.</p>
+                <p><b>Rola:</b> Główny programista</p>
+                <p>Gra zdobyła pierwsze miejsce w konkursie<br>
+                <a href="https://animator-festival.com/news/laureaci-game-jam-2025/">Wyniki konkursu Animator</a></p>
+                <iframe src="https://www.youtube.com/embed/GTdlPGpYMjI?si=3dEQwMRlJh76sVKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                <img src="WD.png" alt="Grafika promocyjna We Did It, Alice!">
+                <img src="WD2.gif" alt="Ekran gry We Did It, Alice!">
+                <img src="WD1.gif" alt="Ekran gry We Did It, Alice!">
+                <img src="WD3.gif" alt="Ekran gry We Did It, Alice!">
+            </div>
+            <div class="unseen">
+                <h1>Sights Unseen 2024 - 2025</h1>
+                <h3><a href="https://github.com/Karmelica/Sights-Unseen/releases">Link do projektu</a></h3>
+                <p>Gracz wciela się w postać niewidomego karateki, który musi odnaleźć się w nowej rzeczywistości po częściowej utracie wzroku. Gra została wybrana przez wykładowców do zaprezentowania na <b>Press Start 2025</b> na Collegium Da Vinci w Poznaniu</p>
+                <p>Projekt stworzony w ramach zaliczenia przedmiotu "Zarządzanie projektami"</p>
+                <p><b>Rola:</b> Teamleader oraz główny programista podstawowych mechanik</p>
+                <img src="SU.png" alt="Grafika główna SightsUnseen">
+                <img src="SU5.png" alt="Ekran gry SightsUnseen">
+                <img src="SU1.png" alt="Ekran gry SightsUnseen">
+            </div>
+            <div class="wizard">
+                <h1>Wizard Survivors - 2023</h1>
+                <h3><a href="https://github.com/Karmelica/Wizard-Survivors/releases">Link do projektu</a></h3>
+                <p>Gracz wciela się w postać lisiego czarodzieja, który musi przetrwać w świecie pełnym potworów. Może zdobywać umiejętności poprzez zakupy w sklepie lub poprzez odwiedzanie nowych biomów. Projekt wzorowany na popularnym wtedy "Vampire Survivors"</p>
+                <p>Gra stworzona w ramach zaliczenia przedmiotu "Podstawy programowania" - był to mój pierwszy zespołowy projekt gry</p>
+                <p><b>Rola:</b> Teamleader oraz programista mechanik walki, poruszania się i animacji</p>
+                <img src="WS.png" alt="Ekran gry Wizard Survivors">
+                <img src="WS3.gif" alt="Ekran gry Wizard Survivors">
+                <img src="WS4.gif" alt="Ekran gry Wizard Survivors">
+                <img src="WS1.png" alt="Ekran gry Wizard Survivors">
+                <img src="WS2.png" alt="Ekran gry Wizard Survivors">
+            </div>
         </div>
     </div>
     <footer>
         <p>&copy; 2025 Damian Niedziółka</p>
+    </footer>
 </body>
 </html>

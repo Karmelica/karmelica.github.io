@@ -1,12 +1,15 @@
-.body{
+body{
     background-color: rgb(33, 41, 32);
     color:beige;
     text-align: justify;
     font-family: Iosevka, monospace, sans-serif;
-    max-width: 1290px;
-    margin: auto;
 }
 
+.container{
+    max-width: 1000px;
+    margin: auto;
+
+}
 .nav{
     position: sticky;
     display: flex;
@@ -95,6 +98,13 @@
     padding: 40px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+footer{
+    text-align: center;
+    padding: 10px;
+    margin: 20px;
+    border-top: 2px solid beige;
 }
 
 button {
