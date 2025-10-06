@@ -91,6 +91,7 @@ body{
 
 .projects img{
     width: 100%;
+    margin-top: 20px;
 }
 
 .ninja, .elektronik, .alice, .unseen, .wizard{
@@ -129,13 +130,6 @@ ul {
     text-align: left;
 }
 
-.alice iframe {
-    aspect-ratio: 16/9;
-    width: min(100%, 1290px);
-    height: auto;
-    margin: auto;
-}
-
 .elektronik iframe {
     aspect-ratio: 16/9;
     width: 100%;
@@ -145,7 +139,14 @@ ul {
     display: none;
 }
 
-#alice iframe {
+#yt {
+    aspect-ratio: 16/9;
+    width: min(100%, 1290px);
+    height: auto;
+    margin-top: 20px;
+}
+
+#alice {
     aspect-ratio: 16/9;
     width: 100%;
     height: auto;
