@@ -1,8 +1,11 @@
-var elektronButton = document.getElementById("play-elektron")
+const elektronButton = document.getElementById("play-elektron");
 elektronButton.addEventListener("click", () => showGame("elektron", elektronButton));
 
-var aliceButton = document.getElementById("play-alice")
+const aliceButton = document.getElementById("play-alice");
 aliceButton.addEventListener("click", () => showGame("alice", aliceButton));
+
+const sightsButton = document.getElementById("play-sights");
+sightsButton.addEventListener("click", () => showGame("sights", sightsButton));
 
 const infoLink = document.getElementById("info-click");
 infoLink.addEventListener("click", () => scrollToSection("about"));
