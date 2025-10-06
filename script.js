@@ -1,5 +1,8 @@
-const button = document.getElementById("showGame")
-button.addEventListener("click", showGame);
+var elektronButton = document.getElementById("play-elektron")
+elektronButton.addEventListener("click", () => showGame("elektron", elektronButton));
+
+var aliceButton = document.getElementById("play-alice")
+aliceButton.addEventListener("click", () => showGame("alice", aliceButton));
 
 const infoLink = document.getElementById("info-click");
 infoLink.addEventListener("click", () => scrollToSection("about"));
@@ -7,8 +10,9 @@ infoLink.addEventListener("click", () => scrollToSection("about"));
 const projectsLink = document.getElementById("projects-click");
 projectsLink.addEventListener("click", () => scrollToSection("projects"));
 
-function showGame(){
-    const iframe1 = document.getElementById("elektron");
+function showGame(id, button){
+    const iframe1 = document.getElementById(id);
+
     if(iframe1.style.display === "unset"){
         iframe1.style.display = "none";
         button.innerText = "Zagraj teraz";
