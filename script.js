@@ -37,23 +37,9 @@ showSlides(1, 1);
 showSlides(1, 2);
 showSlides(1, 3);
 
-invokeRepeat();
-
-function invokeRepeat(){
-  for (let i = 0; i < slideId.length; i++) {
-    plusSlides(1, i);
-  }
-  setTimeout(invokeRepeat, 5000);
-}
-
 // Next/previous controls
 function plusSlides(n, no) {
   showSlides(slideIndex[no] += n, no);
-}
-
-// Thumbnail image controls
-function currentSlide(n, no) {
-  showSlides(slideIndex[no] = n, no);
 }
 
 function showSlides(n, no) {
@@ -65,4 +51,5 @@ function showSlides(n, no) {
     x[i].style.display = "none";
   }
   x[slideIndex[no]-1].style.display = "block";
+  setTimeout(() => {plusSlides(1, no);}, 5000);
 }
