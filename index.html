@@ -9,12 +9,12 @@
     <script src="script.js" defer></script>
 </head>
 <body>
-    <div class="nav">
+    <header class="nav">
         <p id="info-click">O mnie</p>
         <p id="projects-click">Projekty</p>
-    </div>
+    </header>
     <div class="container">
-        <div class="intro">
+        <div class="intro" id="intro">
             <h1>O mnie</h1>
             <div class="about" id="about">
                 <h1>Damian Niedziółka</h1>
@@ -57,11 +57,15 @@
                 <p><b>Rola:</b> Główny programista backendu, programista mechanik, UI oraz animacji</p>
                 <p><a href="https://www.komputronik.pl/lp/level">Oficjalna strona Komputronik</a></p>
                 <button id="play-elektron">Zagraj teraz</button><iframe class="game" id="elektron" src="https://tower-f191b--captcha-evgb1l4b.web.app"></iframe>
-                <img src="Images/KT.png" alt="Grafika Elektronik">
-                <img src="Images/KT1.png" alt="Ekran gry Elektronik">
-                <img src="Images/KT3.gif" alt="Ekran gry Elektronik">
-                <img src="Images/KT5.gif" alt="Ekran gry Elektronik">
-                <img src="Images/KT4.png" alt="Ekran gry Elektronik">
+                <div class="slideshow-container">
+                    <div class="mySlides1"><img src="Images/KT.png" alt="Grafika Elektronik"></div>
+                    <div class="mySlides1"><img src="Images/KT1.png" alt="Ekran gry Elektronik"></div>
+                    <div class="mySlides1"><img src="Images/KT3.gif" alt="Ekran gry Elektronik"></div>
+                    <div class="mySlides1"><img src="Images/KT5.gif" alt="Ekran gry Elektronik"></div>
+                    <div class="mySlides1"><img src="Images/KT4.png" alt="Ekran gry Elektronik"></div>
+                    <a class="prev" onclick="plusSlides(-1, 0)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 0)">&#10095;</a>
+                </div>
             </div>
             <div class="alice">
                 <h1>We Did It, Alice! - 2025</h1>
@@ -73,10 +77,14 @@
                 <a href="https://animator-festival.com/news/laureaci-game-jam-2025/">Wyniki konkursu Animator</a></p>
                 <button id="play-alice">Zagraj teraz</button><iframe class="game" id="alice" src="WeDidItAliceBuild/index.html"></iframe>
                 <iframe id="yt" src="https://www.youtube.com/embed/GTdlPGpYMjI?si=3dEQwMRlJh76sVKz" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-                <img src="Images/WD.png" alt="Grafika promocyjna We Did It, Alice!">
-                <img src="Images/WD2.gif" alt="Ekran gry We Did It, Alice!">
-                <img src="Images/WD1.gif" alt="Ekran gry We Did It, Alice!">
-                <img src="Images/WD3.gif" alt="Ekran gry We Did It, Alice!">
+                <div class="slideshow-container">
+                    <div class="mySlides2"><img src="Images/WD.png" alt="Grafika promocyjna We Did It, Alice!"></div>
+                    <div class="mySlides2"><img src="Images/WD1.gif" alt="Ekran gry We Did It, Alice!"></div>
+                    <div class="mySlides2"><img src="Images/WD2.gif" alt="Ekran gry We Did It, Alice!"></div>
+                    <div class="mySlides2"><img src="Images/WD3.gif" alt="Ekran gry We Did It, Alice!"></div>
+                    <a class="prev" onclick="plusSlides(-1, 1)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 1)">&#10095;</a>
+                </div>
             </div>
             <div class="unseen">
                 <h1>Sights Unseen 2024 - 2025</h1>
@@ -85,8 +93,12 @@
                 <p>Projekt stworzony w ramach zaliczenia przedmiotu "Zarządzanie projektami"</p>
                 <p><b>Rola:</b> Teamleader oraz główny programista podstawowych mechanik</p>
                 <button id="play-sights">Zagraj teraz</button><iframe class="game" id="sights" src="SightsBuild/index.html"></iframe>
-                <img src="Images/SU5.png" alt="Ekran gry SightsUnseen">
-                <img src="Images/SU1.png" alt="Ekran gry SightsUnseen">
+                <div class="slideshow-container">
+                    <div class="mySlides3"><img src="Images/SU5.png" alt="Ekran gry SightsUnseen"></div>
+                    <div class="mySlides3"><img src="Images/SU1.png" alt="Ekran gry SightsUnseen"></div>
+                    <a class="prev" onclick="plusSlides(-1, 2)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 2)">&#10095;</a>
+                </div>
             </div>
             <div class="wizard">
                 <h1>Wizard Survivors - 2023</h1>
@@ -94,11 +106,15 @@
                 <p>Gracz wciela się w postać lisiego czarodzieja, który musi przetrwać w świecie pełnym potworów. Może zdobywać umiejętności poprzez zakupy w sklepie lub poprzez odwiedzanie nowych biomów. Projekt wzorowany na popularnym wtedy "Vampire Survivors"</p>
                 <p>Gra stworzona w ramach zaliczenia przedmiotu "Podstawy programowania" - był to mój pierwszy zespołowy projekt gry</p>
                 <p><b>Rola:</b> Teamleader oraz programista mechanik walki, poruszania się i animacji</p>
-                <img src="Images/WS.png" alt="Ekran gry Wizard Survivors">
-                <img src="Images/WS3.gif" alt="Ekran gry Wizard Survivors">
-                <img src="Images/WS4.gif" alt="Ekran gry Wizard Survivors">
-                <img src="Images/WS1.png" alt="Ekran gry Wizard Survivors">
-                <img src="Images/WS2.png" alt="Ekran gry Wizard Survivors">
+                <div class="slideshow-container">
+                    <div class="mySlides4"><img src="Images/WS.png" alt="Ekran gry Wizard Survivors"></div>
+                    <div class="mySlides4"><img src="Images/WS3.gif" alt="Ekran gry Wizard Survivors"></div>
+                    <div class="mySlides4"><img src="Images/WS4.gif" alt="Ekran gry Wizard Survivors"></div>
+                    <div class="mySlides4"><img src="Images/WS1.png" alt="Ekran gry Wizard Survivors"></div>
+                    <div class="mySlides4"><img src="Images/WS2.png" alt="Ekran gry Wizard Survivors"></div>
+                    <a class="prev" onclick="plusSlides(-1, 3)">&#10094;</a>
+                    <a class="next" onclick="plusSlides(1, 3)">&#10095;</a>
+                </div>
             </div>
         </div>
     </div>
