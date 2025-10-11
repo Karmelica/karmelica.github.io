@@ -78,7 +78,6 @@ body{
 }
 
 .projects{
-    /* border: 2px solid beige; */
     padding: 20px, 0;
     margin: 20px;
     scroll-margin-top: 100px;
@@ -118,23 +117,24 @@ body{
     display: none;
 }
 
-.prev, .next {
-    cursor: pointer;
-    width: auto;
-    color: beige;
-    font-weight: bold;
-    font-size: 18px;
-}
-
-.next{
-    right: 0;
-}
 
 .ninja, .elektronik, .alice, .unseen, .wizard{
     border: 2px solid beige;
     padding: 20px;
     margin-top: 20px;
     margin-bottom: 20px;
+}
+
+.ninja{
+    border-right: 0;
+    border-left: 0;
+    padding: 0;
+}
+
+.elektronik{
+    border-right: 0;
+    border-left: 0;
+    padding: 0;
 }
 
 .alice{
