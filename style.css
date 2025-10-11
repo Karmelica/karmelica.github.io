@@ -1,6 +1,8 @@
 body{
     background-color: rgb(33, 41, 32);
     color:beige;
+    margin: 0;
+    padding: 0;
     text-align: justify;
     font-family: Iosevka, monospace, sans-serif;
 }
@@ -66,6 +68,13 @@ body{
     
 }
 
+.contributions{
+    border: 2px solid beige;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+}
+
 .projects{
     /* border: 2px solid beige; */
     padding: 20px;
@@ -76,6 +85,14 @@ body{
 .projects img{
     width: 100%;
     margin-top: 20px;
+}
+
+.komputronik{
+    background-image: linear-gradient(to bottom, #00025e44, #0199f844);
+    border: 2px solid beige;
+    padding: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .slideshow-container {
@@ -118,6 +135,18 @@ body{
     margin-bottom: 20px;
 }
 
+.alice{
+    background-image: linear-gradient(to bottom, #ff00ff44, #00ffff44);
+}
+
+.unseen{
+    background-image: linear-gradient(to bottom, #ff000044, #ffff0044);
+}
+
+.wizard{
+    background-image: linear-gradient(to bottom, #00ff0044, #ffff0044);
+}
+
 .nav{
     position: sticky;
     display: flex;
@@ -140,8 +169,6 @@ body{
 
 footer{
     text-align: center;
-    padding: 10px;
-    margin: 20px;
     border-top: 2px solid beige;
 }
 
