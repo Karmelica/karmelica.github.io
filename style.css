@@ -21,10 +21,27 @@ body{
 }
 
 .about{
+    display: flex;
     border: 2px solid beige;
     width: 100% - 20px;
     padding: 20px;
     margin: 20px;
+}
+
+.profile-picture{
+    flex: 30%;
+    margin: auto;
+}
+
+.description{
+    flex: 70%;
+    margin: 20px;
+}
+
+.profile-picture img{
+    width: min(100%, 300px);
+    border: 2px solid beige;
+
 }
 
 .info{
@@ -67,7 +84,13 @@ body{
         margin-top: 20px;
         margin-bottom: 20px;
     }
-    
+}
+
+@media screen and (max-width: 700px) {
+    .about{
+        text-align: center;
+        display: block;
+    }
 }
 
 .contributions{
