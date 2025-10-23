@@ -30,12 +30,13 @@ function scrollToSection(id) {
     section.scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-let slideIndex = [1, 1, 1, 1];
-let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4"];
+let slideIndex = [1, 1, 1, 1, 1];
+let slideId = ["mySlides1", "mySlides2", "mySlides3", "mySlides4", "mySlides5"];
 showSlides(1, 0);
 showSlides(1, 1);
 showSlides(1, 2);
 showSlides(1, 3);
+showSlides(1, 4);
 
 // Next/previous controls
 function plusSlides(n, no) {
